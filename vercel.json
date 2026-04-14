@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "rootDirectory": "apps/web",
+  "buildCommand": "cd ../.. && pnpm --filter @admin/web build",
+  "outputDirectory": "apps/web/.next",
+  "installCommand": "cd apps/web/../.. && pnpm install --frozen-lockfile",
+  "framework": "nextjs"
+}
